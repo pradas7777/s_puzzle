@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:text="오늘의 퍼즐"
+        android:textColor="#333333"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <GridLayout
+        android:id="@+id/puzzleGrid"
+        android:layout_width="320dp"
+        android:layout_height="320dp"
+        android:columnCount="3"
+        android:rowCount="3"
+        android:layout_gravity="center"
+        android:layout_marginBottom="40dp">
+    </GridLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnReset"
+        android:layout_width="176dp"
+        android:layout_height="98dp"
+        android:layout_marginEnd="10dp"
+        android:backgroundTint="#0037FF"
+        android:text="다시 섞기"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnUnlock"
+        android:layout_width="308dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#BAEAFF"
+        android:text="눌러서 잠금해제"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+</LinearLayout>

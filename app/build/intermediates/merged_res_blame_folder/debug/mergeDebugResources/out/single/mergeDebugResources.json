@@ -1,0 +1,90 @@
+[
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\9.1.0\\com.example.imagepuzzle.app-debug-28:\\drawable_puzzle_image.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\9.1.0\\com.example.imagepuzzle.app-main-30:\\drawable\\puzzle_image.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\9.1.0\\com.example.imagepuzzle.app-debug-28:\\drawable_puzzle_image2.jpg.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\9.1.0\\com.example.imagepuzzle.app-main-30:\\drawable\\puzzle_image2.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\9.1.0\\com.example.imagepuzzle.app-debug-28:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\9.1.0\\com.example.imagepuzzle.app-main-30:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\9.1.0\\com.example.imagepuzzle.app-debug-28:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\9.1.0\\com.example.imagepuzzle.app-main-30:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\9.1.0\\com.example.imagepuzzle.app-debug-28:\\layout_dialog_congratulations.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\9.1.0\\com.example.imagepuzzle.app-main-30:\\layout\\dialog_congratulations.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\9.1.0\\com.example.imagepuzzle.app-debug-28:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\9.1.0\\com.example.imagepuzzle.app-main-30:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\9.1.0\\com.example.imagepuzzle.app-debug-28:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\9.1.0\\com.example.imagepuzzle.app-main-30:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\9.1.0\\com.example.imagepuzzle.app-debug-28:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\9.1.0\\com.example.imagepuzzle.app-main-30:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\9.1.0\\com.example.imagepuzzle.app-debug-28:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\9.1.0\\com.example.imagepuzzle.app-main-30:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\9.1.0\\com.example.imagepuzzle.app-debug-28:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\9.1.0\\com.example.imagepuzzle.app-main-30:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\9.1.0\\com.example.imagepuzzle.app-debug-28:\\drawable_puzzle_image.jpg.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\9.1.0\\com.example.imagepuzzle.app-main-30:\\drawable\\puzzle_image.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\9.1.0\\com.example.imagepuzzle.app-debug-28:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\9.1.0\\com.example.imagepuzzle.app-main-30:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\9.1.0\\com.example.imagepuzzle.app-debug-28:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\9.1.0\\com.example.imagepuzzle.app-main-30:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\9.1.0\\com.example.imagepuzzle.app-debug-28:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\9.1.0\\com.example.imagepuzzle.app-main-30:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\9.1.0\\com.example.imagepuzzle.app-debug-28:\\drawable_puzzle_image2.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\9.1.0\\com.example.imagepuzzle.app-main-30:\\drawable\\puzzle_image2.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\9.1.0\\com.example.imagepuzzle.app-debug-28:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\9.1.0\\com.example.imagepuzzle.app-main-30:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\9.1.0\\com.example.imagepuzzle.app-debug-28:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\9.1.0\\com.example.imagepuzzle.app-main-30:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\9.1.0\\com.example.imagepuzzle.app-debug-28:\\layout_activity_lock_screen.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\9.1.0\\com.example.imagepuzzle.app-main-30:\\layout\\activity_lock_screen.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\9.1.0\\com.example.imagepuzzle.app-debug-28:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\9.1.0\\com.example.imagepuzzle.app-main-30:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\9.1.0\\com.example.imagepuzzle.app-debug-28:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\9.1.0\\com.example.imagepuzzle.app-main-30:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\9.1.0\\com.example.imagepuzzle.app-debug-28:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\9.1.0\\com.example.imagepuzzle.app-main-30:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.imagepuzzle.app-debug-28:/layout_activity_lock_screen.xml.flat",
+        "source": "com.example.imagepuzzle.app-main-30:/layout/activity_lock_screen.xml"
+    }
+]
