@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.imagepuzzle.app-mergeDebugResources-26:/values-es/values-es.xml",
+            "outputFile": "com.example.imagepuzzle.app-mergeDebugResources-27:/values-es/values-es.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Admin\\.gradle\\caches\\9.1.0\\transforms\\46e598a89fb7c302cc40f97fa0581afe\\workspace\\transformed\\material-1.8.0\\res\\values-es\\values-es.xml",

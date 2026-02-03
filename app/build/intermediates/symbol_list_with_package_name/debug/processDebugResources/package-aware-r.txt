@@ -2898,7 +2898,9 @@ id bounceEnd
 id bounceStart
 id btnExit
 id btnNext
+id btnPickImage
 id btnReset
+id btnTransform
 id btnUnlock
 id buttonPanel
 id cache_measures
@@ -3001,10 +3003,10 @@ id frost
 id fullscreen_header
 id ghost_view
 id ghost_view_holder
+id glide_custom_view_target_tag
 id gone
 id graph
 id graph_wrap
-id gridLayout
 id group_divider
 id grouping
 id groups
@@ -3028,6 +3030,7 @@ id invisible
 id inward
 id italic
 id item_touch_helper_previous_elevation
+id ivPreview
 id ivSuccessPhoto
 id jumpToEnd
 id jumpToStart
@@ -3196,7 +3199,6 @@ id shortcut
 id showCustom
 id showHome
 id showTitle
-id shuffleButton
 id sin
 id skipCollapsed
 id skipped

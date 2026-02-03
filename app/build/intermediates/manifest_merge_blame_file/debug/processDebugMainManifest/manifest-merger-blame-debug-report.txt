@@ -17,107 +17,112 @@
 13    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
 13-->C:\puzzle\app\src\main\AndroidManifest.xml:6:5-78
 13-->C:\puzzle\app\src\main\AndroidManifest.xml:6:22-75
-14
-15    <permission
-15-->[androidx.core:core:1.9.0] C:\Users\Admin\.gradle\caches\9.1.0\transforms\b034a4274cf64a7ffa4e4e57fb1a01a8\workspace\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
-16        android:name="com.example.imagepuzzle.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-16-->[androidx.core:core:1.9.0] C:\Users\Admin\.gradle\caches\9.1.0\transforms\b034a4274cf64a7ffa4e4e57fb1a01a8\workspace\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
-17        android:protectionLevel="signature" />
-17-->[androidx.core:core:1.9.0] C:\Users\Admin\.gradle\caches\9.1.0\transforms\b034a4274cf64a7ffa4e4e57fb1a01a8\workspace\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
-18
-19    <uses-permission android:name="com.example.imagepuzzle.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-19-->[androidx.core:core:1.9.0] C:\Users\Admin\.gradle\caches\9.1.0\transforms\b034a4274cf64a7ffa4e4e57fb1a01a8\workspace\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
-19-->[androidx.core:core:1.9.0] C:\Users\Admin\.gradle\caches\9.1.0\transforms\b034a4274cf64a7ffa4e4e57fb1a01a8\workspace\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
-20
-21    <application
-21-->C:\puzzle\app\src\main\AndroidManifest.xml:8:5-43:19
-22        android:allowBackup="true"
-22-->C:\puzzle\app\src\main\AndroidManifest.xml:9:9-35
-23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-23-->[androidx.core:core:1.9.0] C:\Users\Admin\.gradle\caches\9.1.0\transforms\b034a4274cf64a7ffa4e4e57fb1a01a8\workspace\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
-24        android:debuggable="true"
-25        android:extractNativeLibs="false"
-26        android:icon="@mipmap/ic_launcher"
-26-->C:\puzzle\app\src\main\AndroidManifest.xml:10:9-43
-27        android:label="치매예방퍼즐"
-27-->C:\puzzle\app\src\main\AndroidManifest.xml:11:9-31
-28        android:roundIcon="@mipmap/ic_launcher_round"
-28-->C:\puzzle\app\src\main\AndroidManifest.xml:12:9-54
-29        android:supportsRtl="true"
-29-->C:\puzzle\app\src\main\AndroidManifest.xml:13:9-35
-30        android:testOnly="true"
-31        android:theme="@style/Theme.AppCompat.Light.DarkActionBar" >
-31-->C:\puzzle\app\src\main\AndroidManifest.xml:14:9-67
-32        <service
-32-->C:\puzzle\app\src\main\AndroidManifest.xml:16:9-20:58
-33            android:name="com.example.imagepuzzle.LockScreenService"
-33-->C:\puzzle\app\src\main\AndroidManifest.xml:17:13-46
-34            android:enabled="true"
-34-->C:\puzzle\app\src\main\AndroidManifest.xml:18:13-35
-35            android:exported="false"
-35-->C:\puzzle\app\src\main\AndroidManifest.xml:19:13-37
-36            android:foregroundServiceType="specialUse" />
-36-->C:\puzzle\app\src\main\AndroidManifest.xml:20:13-55
-37
-38        <receiver
-38-->C:\puzzle\app\src\main\AndroidManifest.xml:22:9-25:40
-39            android:name="com.example.imagepuzzle.ScreenReceiver"
-39-->C:\puzzle\app\src\main\AndroidManifest.xml:23:13-43
-40            android:enabled="true"
-40-->C:\puzzle\app\src\main\AndroidManifest.xml:24:13-35
-41            android:exported="false" />
-41-->C:\puzzle\app\src\main\AndroidManifest.xml:25:13-37
-42
-43        <activity
-43-->C:\puzzle\app\src\main\AndroidManifest.xml:27:9-32:20
-44            android:name="com.example.imagepuzzle.LockScreenActivity"
-44-->C:\puzzle\app\src\main\AndroidManifest.xml:28:13-47
-45            android:exported="false"
-45-->C:\puzzle\app\src\main\AndroidManifest.xml:29:13-37
-46            android:showWhenLocked="true"
-46-->C:\puzzle\app\src\main\AndroidManifest.xml:30:13-42
-47            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
-47-->C:\puzzle\app\src\main\AndroidManifest.xml:31:13-69
-48        </activity>
-49        <activity
-49-->C:\puzzle\app\src\main\AndroidManifest.xml:34:9-41:20
-50            android:name="com.example.imagepuzzle.MainActivity"
-50-->C:\puzzle\app\src\main\AndroidManifest.xml:35:13-41
-51            android:exported="true" >
-51-->C:\puzzle\app\src\main\AndroidManifest.xml:36:13-36
-52            <intent-filter>
-52-->C:\puzzle\app\src\main\AndroidManifest.xml:37:13-40:29
-53                <action android:name="android.intent.action.MAIN" />
-53-->C:\puzzle\app\src\main\AndroidManifest.xml:38:17-69
-53-->C:\puzzle\app\src\main\AndroidManifest.xml:38:25-66
-54
-55                <category android:name="android.intent.category.LAUNCHER" />
-55-->C:\puzzle\app\src\main\AndroidManifest.xml:39:17-77
-55-->C:\puzzle\app\src\main\AndroidManifest.xml:39:27-74
-56            </intent-filter>
-57        </activity>
-58
-59        <provider
-59-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Admin\.gradle\caches\9.1.0\transforms\0fccc544119d15fd7a9d010bdb89a2c3\workspace\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
-60            android:name="androidx.startup.InitializationProvider"
-60-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Admin\.gradle\caches\9.1.0\transforms\0fccc544119d15fd7a9d010bdb89a2c3\workspace\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
-61            android:authorities="com.example.imagepuzzle.androidx-startup"
-61-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Admin\.gradle\caches\9.1.0\transforms\0fccc544119d15fd7a9d010bdb89a2c3\workspace\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
-62            android:exported="false" >
-62-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Admin\.gradle\caches\9.1.0\transforms\0fccc544119d15fd7a9d010bdb89a2c3\workspace\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
-63            <meta-data
-63-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Admin\.gradle\caches\9.1.0\transforms\0fccc544119d15fd7a9d010bdb89a2c3\workspace\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
-64                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-64-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Admin\.gradle\caches\9.1.0\transforms\0fccc544119d15fd7a9d010bdb89a2c3\workspace\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
-65                android:value="androidx.startup" />
-65-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Admin\.gradle\caches\9.1.0\transforms\0fccc544119d15fd7a9d010bdb89a2c3\workspace\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
-66            <meta-data
-66-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Admin\.gradle\caches\9.1.0\transforms\6f7ad857ab15a25219c747160cb6f554\workspace\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
-67                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-67-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Admin\.gradle\caches\9.1.0\transforms\6f7ad857ab15a25219c747160cb6f554\workspace\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
-68                android:value="androidx.startup" />
-68-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Admin\.gradle\caches\9.1.0\transforms\6f7ad857ab15a25219c747160cb6f554\workspace\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
-69        </provider>
-70    </application>
-71
-72</manifest>
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->C:\puzzle\app\src\main\AndroidManifest.xml:7:5-67
+14-->C:\puzzle\app\src\main\AndroidManifest.xml:7:22-64
+15
+16    <permission
+16-->[androidx.core:core:1.9.0] C:\Users\Admin\.gradle\caches\9.1.0\transforms\b034a4274cf64a7ffa4e4e57fb1a01a8\workspace\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+17        android:name="com.example.imagepuzzle.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+17-->[androidx.core:core:1.9.0] C:\Users\Admin\.gradle\caches\9.1.0\transforms\b034a4274cf64a7ffa4e4e57fb1a01a8\workspace\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+18        android:protectionLevel="signature" />
+18-->[androidx.core:core:1.9.0] C:\Users\Admin\.gradle\caches\9.1.0\transforms\b034a4274cf64a7ffa4e4e57fb1a01a8\workspace\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+19
+20    <uses-permission android:name="com.example.imagepuzzle.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+20-->[androidx.core:core:1.9.0] C:\Users\Admin\.gradle\caches\9.1.0\transforms\b034a4274cf64a7ffa4e4e57fb1a01a8\workspace\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+20-->[androidx.core:core:1.9.0] C:\Users\Admin\.gradle\caches\9.1.0\transforms\b034a4274cf64a7ffa4e4e57fb1a01a8\workspace\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+21
+22    <application
+22-->C:\puzzle\app\src\main\AndroidManifest.xml:9:5-45:19
+23        android:allowBackup="true"
+23-->C:\puzzle\app\src\main\AndroidManifest.xml:11:9-35
+24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+24-->[androidx.core:core:1.9.0] C:\Users\Admin\.gradle\caches\9.1.0\transforms\b034a4274cf64a7ffa4e4e57fb1a01a8\workspace\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+25        android:debuggable="true"
+26        android:extractNativeLibs="false"
+27        android:icon="@mipmap/ic_launcher"
+27-->C:\puzzle\app\src\main\AndroidManifest.xml:12:9-43
+28        android:label="치매예방퍼즐"
+28-->C:\puzzle\app\src\main\AndroidManifest.xml:13:9-31
+29        android:roundIcon="@mipmap/ic_launcher_round"
+29-->C:\puzzle\app\src\main\AndroidManifest.xml:14:9-54
+30        android:supportsRtl="true"
+30-->C:\puzzle\app\src\main\AndroidManifest.xml:15:9-35
+31        android:testOnly="true"
+32        android:theme="@style/Theme.AppCompat.Light.DarkActionBar"
+32-->C:\puzzle\app\src\main\AndroidManifest.xml:16:9-67
+33        android:usesCleartextTraffic="true" >
+33-->C:\puzzle\app\src\main\AndroidManifest.xml:10:9-44
+34        <service
+34-->C:\puzzle\app\src\main\AndroidManifest.xml:18:9-22:58
+35            android:name="com.example.imagepuzzle.LockScreenService"
+35-->C:\puzzle\app\src\main\AndroidManifest.xml:19:13-46
+36            android:enabled="true"
+36-->C:\puzzle\app\src\main\AndroidManifest.xml:20:13-35
+37            android:exported="false"
+37-->C:\puzzle\app\src\main\AndroidManifest.xml:21:13-37
+38            android:foregroundServiceType="specialUse" />
+38-->C:\puzzle\app\src\main\AndroidManifest.xml:22:13-55
+39
+40        <receiver
+40-->C:\puzzle\app\src\main\AndroidManifest.xml:24:9-27:40
+41            android:name="com.example.imagepuzzle.ScreenReceiver"
+41-->C:\puzzle\app\src\main\AndroidManifest.xml:25:13-43
+42            android:enabled="true"
+42-->C:\puzzle\app\src\main\AndroidManifest.xml:26:13-35
+43            android:exported="false" />
+43-->C:\puzzle\app\src\main\AndroidManifest.xml:27:13-37
+44
+45        <activity
+45-->C:\puzzle\app\src\main\AndroidManifest.xml:29:9-34:20
+46            android:name="com.example.imagepuzzle.LockScreenActivity"
+46-->C:\puzzle\app\src\main\AndroidManifest.xml:30:13-47
+47            android:exported="false"
+47-->C:\puzzle\app\src\main\AndroidManifest.xml:31:13-37
+48            android:showWhenLocked="true"
+48-->C:\puzzle\app\src\main\AndroidManifest.xml:32:13-42
+49            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+49-->C:\puzzle\app\src\main\AndroidManifest.xml:33:13-69
+50        </activity>
+51        <activity
+51-->C:\puzzle\app\src\main\AndroidManifest.xml:36:9-43:20
+52            android:name="com.example.imagepuzzle.MainActivity"
+52-->C:\puzzle\app\src\main\AndroidManifest.xml:37:13-41
+53            android:exported="true" >
+53-->C:\puzzle\app\src\main\AndroidManifest.xml:38:13-36
+54            <intent-filter>
+54-->C:\puzzle\app\src\main\AndroidManifest.xml:39:13-42:29
+55                <action android:name="android.intent.action.MAIN" />
+55-->C:\puzzle\app\src\main\AndroidManifest.xml:40:17-69
+55-->C:\puzzle\app\src\main\AndroidManifest.xml:40:25-66
+56
+57                <category android:name="android.intent.category.LAUNCHER" />
+57-->C:\puzzle\app\src\main\AndroidManifest.xml:41:17-77
+57-->C:\puzzle\app\src\main\AndroidManifest.xml:41:27-74
+58            </intent-filter>
+59        </activity>
+60
+61        <provider
+61-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Admin\.gradle\caches\9.1.0\transforms\0fccc544119d15fd7a9d010bdb89a2c3\workspace\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+62            android:name="androidx.startup.InitializationProvider"
+62-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Admin\.gradle\caches\9.1.0\transforms\0fccc544119d15fd7a9d010bdb89a2c3\workspace\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+63            android:authorities="com.example.imagepuzzle.androidx-startup"
+63-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Admin\.gradle\caches\9.1.0\transforms\0fccc544119d15fd7a9d010bdb89a2c3\workspace\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+64            android:exported="false" >
+64-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Admin\.gradle\caches\9.1.0\transforms\0fccc544119d15fd7a9d010bdb89a2c3\workspace\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+65            <meta-data
+65-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Admin\.gradle\caches\9.1.0\transforms\0fccc544119d15fd7a9d010bdb89a2c3\workspace\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+66                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+66-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Admin\.gradle\caches\9.1.0\transforms\0fccc544119d15fd7a9d010bdb89a2c3\workspace\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+67                android:value="androidx.startup" />
+67-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Admin\.gradle\caches\9.1.0\transforms\0fccc544119d15fd7a9d010bdb89a2c3\workspace\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+68            <meta-data
+68-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Admin\.gradle\caches\9.1.0\transforms\6f7ad857ab15a25219c747160cb6f554\workspace\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+69                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+69-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Admin\.gradle\caches\9.1.0\transforms\6f7ad857ab15a25219c747160cb6f554\workspace\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+70                android:value="androidx.startup" />
+70-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Admin\.gradle\caches\9.1.0\transforms\6f7ad857ab15a25219c747160cb6f554\workspace\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+71        </provider>
+72    </application>
+73
+74</manifest>
